@@ -1,0 +1,30 @@
+.horizantal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.des {
+  font-size: 10px;
+  color: #9aa5b1;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .des {
+    font-size: 20px;
+  }
+}
+.date {
+  font-size: 13px;
+  color: #9aa5b1;
+}
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 20px;
+  }
+}
+.dash {
+  height: 1px;
+  width: 100%;
+  background-color: #616a6c;
+}

@@ -1,0 +1,27 @@
+.username-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.designation {
+  color: #616c7c;
+  font-size: 8px;
+}
+.name-text {
+  color: #12022f;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+@media screen and (min-width:798px){
+  .designation{
+    font-size: 25px;
+  }
+  .name-text{
+    font-size: 28px;
+  }
+}
+.user-icon{
+  width : 50%;
+}
